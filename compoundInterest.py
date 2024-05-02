@@ -9,7 +9,7 @@ def calculateCompoundInterest():
     return
 
 def compoundInterestCaculator():
-    client_one_principal = float(input("Principle (amount): "))
+    client_one_principal = float(input("Principle (amount):"))
     client_one_time =      float(input("Time:               "))
     client_one_rate =      float(input("Rate:               "))
     amount = client_one_principal * ( 1 + client_one_rate/100)**client_one_time
